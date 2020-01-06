@@ -59,7 +59,7 @@ numOfAssetsFound = 0
 print("Downloading Library\n")
 assetsList = json.loads(assetsJSON)["items"]
 for asset in assetsList:
-    # append html extension if asset id greater than 200
+    # append html extension if asset id greater than 194
     fileIDExt = filePath + asset["name"].replace("/","_")
     if assetID > 194:
         fileID = fileIDExt + ".html"
