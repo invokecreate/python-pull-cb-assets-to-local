@@ -44,7 +44,7 @@ contentRequest = {
         "value": assetID
     },
     "page": {
-        "pageSize": 5000
+        "pageSize": 500
     }
 }
 print("Getting assets...\n")
